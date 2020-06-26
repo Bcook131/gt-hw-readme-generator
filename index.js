@@ -14,6 +14,27 @@ const questions = () => {
        name: "title",
        message: "What is your Project Title?",
    },
+   {
+    type: "input",
+    name: "description",
+    message: "What is your project's description?",
+},
+{
+    type: "input",
+    name: "install",
+    message: "What is the installation for your project?",
+},
+{
+    type: "input",
+    name: "usage",
+    message: "What is your project going to be used for?",
+},
+{
+    type: "list",
+    name: "licenses",
+    message: "What license would you like to use for your project?",
+    choices: ["MIT"]
+},
   ])
 };
 // function to write README file
