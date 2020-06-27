@@ -1,1 +1,0 @@
-# gt-hw-readme-generator
