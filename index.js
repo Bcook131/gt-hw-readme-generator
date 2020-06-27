@@ -68,7 +68,7 @@ function writeToFile (fileName, data) {
 // function to initialize program
 async function init() {
     const response = await inquirer.prompt(questions);
-    writeToFile("README.md", generateMarkdown(response));
+    writeToFile("created-readme.md", generateMarkdown(response));
 }
 
 // function call to initialize program
